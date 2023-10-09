@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    
+}
+h1{
+    color: white;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+.a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.gradient-custom-1{
+    background-color: #12a5bc;
+}
+
+
+
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #12a5bc;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #5f6be8,  #7d87ef,  #8e97f1, #959df1);
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #5f6be8,  #7d87ef,  #8e97f1, #959df1);
+}
+    
+@media (min-width: 768px) {
+    .gradient-form {
+    height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+}
+
+a:hover{
+    color: white;    
+}
+
+
+.mainbody {
+    border: 1.5px solid #ddd;
+    padding: 1px;
+    background-color: #fff!important;
+    margin: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100%;
+    border-radius: 4px;
+   
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.card {
+    transform-style: preserve-3d;
+    border-radius: 30px;
+
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+    
+}
