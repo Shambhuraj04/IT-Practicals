@@ -281,10 +281,40 @@ td {
 
 }
 
-
+h1,
+div a {
+    white-space: nowrap;
+}
 
 /* pre {
     padding-left: 50px;
     background-color: #000;
     color: #fff;
 } */
+
+@media only screen and (max-width: 768px) {
+    .navbar-brand {
+        font-size: 15px;
+
+    }
+
+    .navbar {
+        padding: 30px 10px 30px 10px;
+    }
+
+    .btn {
+        width: 85px;
+        padding: 8px;
+        font-size: 10px;
+        margin: 0px;
+    }
+
+    img {
+        width: 50%;
+        padding-bottom: 5px;
+    }
+
+    .col {
+        width: 13px;
+    }
+}
